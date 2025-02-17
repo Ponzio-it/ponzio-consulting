@@ -1,0 +1,115 @@
+/* styles/Home.module.css */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, rgba(10, 25, 47, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: var(--secondary-text);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .ctaButton {
+    font-size: 1.1rem;
+    background: var(--secondary-text);
+    color: var(--primary-bg);
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.hero .ctaButton:hover {
+    background: var(--accent-color);
+    color: #fff;
+}
+
+/* Services Section */
+.services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.serviceItem {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.serviceItem:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact input, 
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #64FFDA;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+}
+
+.contact button {
+    width: 100%;
+    padding: 12px;
+    background: var(--secondary-text);
+    color: var(--primary-bg);
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background: var(--accent-color);
+    color: #fff;
+}
+
+/* Status messages */
+.status {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .services {
+        padding: 30px 10px;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+}
