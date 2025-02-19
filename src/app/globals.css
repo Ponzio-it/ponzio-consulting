@@ -2,7 +2,7 @@
 :root {
   --primary-bg: #0A192F; /* Dark Blue Background */
   --primary-text: #FFFFFF; /* White Text */
-  --secondary-text: #64FFDA; /* Neon Green */
+  --secondary-text: #fff; /* Neon Green */
   --accent-color: #E63946; /* Red Accent */
   --nav-bg: #333; /* Navbar Background */
   --font-main: 'Roboto', sans-serif;

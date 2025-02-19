@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    height: 100px; /* Adjust height for a better layout */
+    position: relative; /* Ensures the logo doesn’t affect centering */
+  }
+  
+  .logo {
+    position: absolute;
+    left: 20px; /* Moves the logo to the left */
+    width: 100px;
+    height: auto;
+  }
+  
