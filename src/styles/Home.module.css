@@ -16,6 +16,15 @@
     margin-bottom: 20px;
 }
 
+/* Button Container */
+.buttonGroup {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+    gap: 15px; /* Spacing between buttons */
+}
+
+/* CTA Button */
 .hero .ctaButton {
     font-size: 1.1rem;
     background: var(--secondary-text);
@@ -24,9 +33,29 @@
     border-radius: 5px;
     text-transform: uppercase;
     transition: 0.3s;
+    width: 250px;
+    text-align: center;
 }
 
 .hero .ctaButton:hover {
+    background: var(--accent-color);
+    color: #fff;
+}
+
+/* Profile Button */
+.hero .profileButton {
+    font-size: 1.1rem;
+    background: var(--secondary-text);
+    color: var(--primary-bg);
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    width: 250px;
+    text-align: center;
+}
+
+.hero .profileButton:hover {
     background: var(--accent-color);
     color: #fff;
 }
@@ -105,6 +134,15 @@
         font-size: 1rem;
     }
 
+    .buttonGroup {
+        width: 100%;
+    }
+
+    .hero .ctaButton, 
+    .hero .profileButton {
+        width: 100%;
+    }
+    
     .services {
         padding: 30px 10px;
     }
