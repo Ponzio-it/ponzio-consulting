@@ -1,18 +1,57 @@
 .nav {
     display: flex;
     align-items: center; /* Align items vertically */
-    justify-content: center; /* Center items horizontally */
+    justify-content: space-between;
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
-    height: 100px; /* Adjust height for a better layout */
-    position: relative; /* Ensures the logo doesn’t affect centering */
+    height: 80px; /* Adjust height for a better layout */
+    position: relative;
   }
   
-  .logo {
-    position: absolute;
-    left: 20px; /* Moves the logo to the left */
-    width: 100px;
+
+/* Left Section: Logo & Company Name */
+.navLeft {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between logo & text */
+}
+
+.logo {
+    width: 80x;
     height: auto;
   }
-  
+
+/* Company Name */
+.companyName {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .nav {
+      justify-content: flex-start;
+      height: auto;
+  }
+
+  /* Force logo and text to stay in one row */
+  .navLeft {
+    display: flex;
+    flex-direction: row; /* Ensures items stay side by side */
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+  .companyName {
+    position: static;
+    transform: none;
+    transform: none;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+}
