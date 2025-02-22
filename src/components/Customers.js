@@ -31,8 +31,8 @@ export default function Customers() {
             </a>
             <h3 className={styles.name}>{customer.name}</h3>
             <p className={styles.customerName}>{customer.customerName}</p>
-            <p className={styles.quote}>"{customer.quote}"</p>
-          </div>
+            <p className={styles.quote}>"&quot;{customer.quote}"&quot;</p>
+        </div>
         ))}
       </div>
     </section>
