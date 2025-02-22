@@ -1,0 +1,92 @@
+/* Customers Section */
+.customers {
+    text-align: center;
+    padding: 50px 20px;
+    background: var(--primary-bg); /* Use dark blue background */
+    color: var(--primary-text); /* White text for readability */
+}
+
+.title {
+    font-size: 2rem;
+    font-family: var(--font-heading);
+    color: var(--secondary-text); /* White */
+    margin-bottom: 30px;
+}
+
+/* Customer List Grid */
+.customerList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Customer Card */
+.customerCard {
+    background: var(--nav-bg); /* Dark Gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow */
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.customerCard:hover {
+    transform: scale(1.05);
+}
+
+/* Customer Logo */
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* Customer Name (Company Name) */
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary-text);
+    font-family: var(--font-heading);
+}
+
+/* Customer CEO Name */
+.customerName {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-text); /* White */
+    margin-top: 5px;
+}
+
+/* Customer Quote */
+.quote {
+    font-style: italic;
+    color: var(--accent-color); /* Red accent */
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .customerList {
+        grid-template-columns: 1fr; /* One card per row on mobile */
+    }
+
+    .customerCard {
+        max-width: 100%;
+    }
+
+    .name {
+        font-size: 1.3rem;
+    }
+
+    .quote {
+        font-size: 0.9rem;
+    }
+}
