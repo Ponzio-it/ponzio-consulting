@@ -8,7 +8,7 @@ export default function Services() {
       <div className={styles.serviceList}>
         <div className={styles.serviceItem}>
           <h3>Sviluppo di prodotti digitali</h3>
-          <p>Creazione di siti web, applicazioni e piattaforme scalabili.</p>
+          <p>Creazione di web app, applicazioni e piattaforme scalabili.</p>
         </div>
         <div className={styles.serviceItem}>
           <h3>Digital Marketing & Growth Hacking</h3>
