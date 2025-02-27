@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
         {/* CTA Button and Profile Button Stacked */}
         <div className={styles.buttonGroup}>
-          <a href="#contact" className={styles.ctaButton}>Prenota una Consulenza</a>
+          <a href="#contact" className={styles.ctaButton}>Prenota una Consulenza Gratuita</a>
           <a 
             href="https://1drv.ms/p/c/0b6deb4d2e7cca09/EWb137feeLFBvZhzuhNLunABNS45H2-tO49hzfqDwBNNrg?e=6P3n3q"
             className={styles.profileButton} 
