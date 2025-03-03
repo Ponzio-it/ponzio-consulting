@@ -9,7 +9,7 @@ const customersData = [
     logo: "/logos/hse.png",
     website: "https://www.hseconsulting.info",
     customerName: "CHIARA BOGINO: CEO HSE CONSULTING S.R.L",
-    quote: "Ponzio Consulting ci ha permesso di aumentare di molto la nostra produttività automatizzando al meglio i nostri strumenti.",
+    quote: "Ponzio Consulting mi ha permesso di ridurre il carico di lavoro automatizzando al meglio i processi IT.",
   },
 ];
 
