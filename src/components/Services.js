@@ -8,7 +8,7 @@ export default function Services() {
       <div className={styles.serviceList}>
         <div className={styles.serviceItem}>
           <h3>Prodotti digitali scalabili</h3>
-          <p>Dall'idea alla crescita: sviluppiamo web app, piattaforme e soluzioni digitali con un approccio iterativo e data-driven.</p>
+          <p>Dall&apos;idea alla crescita: sviluppiamo web app, piattaforme e soluzioni digitali con un approccio iterativo e data-driven.</p>
         </div>
         <div className={styles.serviceItem}>
           <h3>Marketing Digitale & Crescita misurabile</h3>
@@ -20,7 +20,7 @@ export default function Services() {
         </div>
         <div className={styles.serviceItem}>
           <h3>Business Development & Sales Strategy</h3>
-          <p>Costruiamo processi di vendita scalabili e prevedibili, riducendo l'incertezza e migliorando la conversione clienti.</p>
+          <p>Costruiamo processi di vendita scalabili e prevedibili, riducendo l&apos;incertezza e migliorando la conversione clienti.</p>
         </div>
       </div>
     </section>
