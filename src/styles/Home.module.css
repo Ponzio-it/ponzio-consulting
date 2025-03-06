@@ -60,59 +60,111 @@
     color: #fff;
 }
 
-/* Our Way Of Work Section */
+/* Our Way of Work Section */
 .ourWayOfWork {
     padding: 60px 20px;
     text-align: center;
 }
 
 .ourWayOfWork h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     color: var(--secondary-text);
 }
 
 .ourWayOfWork p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
     color: var(--primary-text);
+    max-width: 900px;
+    margin: 0 auto 30px auto;
 }
 
-.ourWayOfWork ul {
-    list-style: none;
-    padding: 0;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
+/* Steps Container */
+.workProcess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
-.ourWayOfWork ul li {
-    background: rgba(255,255,255,0.1);
-    padding: 15px;
-    margin-bottom: 10px;
+/* Individual Process Step */
+.processStep {
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
     border-radius: 8px;
+    max-width: 800px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.ourWayOfWork ul li strong {
+.processStep h3 {
+    font-size: 1.5rem;
     color: var(--accent-color);
+}
+
+.processStep p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--primary-text);
 }
 
 /* Services Section */
 .services {
-    padding: 60px 20px;
+    padding: 80px 20px;
     text-align: center;
 }
 
-.serviceItem {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
+.servicesContainer {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: var(--secondary-text);
+}
+
+.servicesDescription {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    color: var(--primary-text);
+}
+
+/* Services Grid */
+.serviceGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    gap: 30px;
+}
+
+/* Individual Service Card */
+.serviceCard {
+    background: rgba(255,255,255,0.2);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
     transition: transform 0.3s ease-in-out;
 }
 
-.serviceItem:hover {
-    transform: scale(1.05);
+.serviceCard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--accent-color);
 }
+
+.serviceCard p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--primary-text);
+}
+
+.serviceCard:hover {
+    transform: translateY(-5px);
+}
+
 
 /* Contact Form */
 .contact {
@@ -180,15 +232,37 @@
         width: 100%;
     }
     
-    .services {
-        padding: 30px 10px;
-    }
+    
     .ourWayOfWork p {
         font-size: 1rem;
     }
 
-    .ourWayOfWork ul {
-        text-align: left;
+    .processStep h3 {
+        font-size: 1.3rem;
+    }
+
+    .processStep p {
+        font-size: 1rem;
+    }
+
+    .serviceGrid {
+        grid-template-columns: 1fr; /* Switch to a single column */
+    }
+
+    .services h2 {
+        font-size: 2rem;
+    }
+
+    .servicesDescription {
+        font-size: 1rem;
+    }
+
+    .serviceCard h3 {
+        font-size: 1.3rem;
+    }
+
+    .serviceCard p {
+        font-size: 1rem;
     }
 
     .contact {
