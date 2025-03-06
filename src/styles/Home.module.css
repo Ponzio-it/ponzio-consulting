@@ -60,6 +60,43 @@
     color: #fff;
 }
 
+/* Our Way Of Work Section */
+.ourWayOfWork {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.ourWayOfWork h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--secondary-text);
+}
+
+.ourWayOfWork p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: var(--primary-text);
+}
+
+.ourWayOfWork ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.ourWayOfWork ul li {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.ourWayOfWork ul li strong {
+    color: var(--accent-color);
+}
+
 /* Services Section */
 .services {
     padding: 60px 20px;
@@ -145,6 +182,13 @@
     
     .services {
         padding: 30px 10px;
+    }
+    .ourWayOfWork p {
+        font-size: 1rem;
+    }
+
+    .ourWayOfWork ul {
+        text-align: left;
     }
 
     .contact {

@@ -2,6 +2,7 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import OurWayOfWork from '../components/OurWayOfWork';
 import Services from '../components/Services';
 import Costumers from '../components/Customers';
 import ContactForm from '../components/ContactForm';
@@ -24,6 +25,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <OurWayOfWork />
         <Services />
         <Costumers />
         <ContactForm />
