@@ -45,6 +45,11 @@ export default function OurWayOfWork() {
             alla crescita sostenibile del business. La nostra collaborazione è un ciclo continuo di miglioramento.
           </p>
         </div>
+
+        <div className={styles.buttonGroup}>
+          <a href="#contact" className={styles.ctaButton}>Prenota una Consulenza Gratuita</a>
+        </div>
+        
       </div>
     </section>
   );

@@ -25,7 +25,7 @@
 }
 
 /* CTA Button */
-.hero .ctaButton {
+.ctaButton {
     font-size: 1.1rem;
     background: var(--secondary-text);
     color: var(--primary-bg);
@@ -37,7 +37,7 @@
     text-align: center;
 }
 
-.hero .ctaButton:hover {
+.ctaButton:hover {
     background: var(--accent-color);
     color: #fff;
 }
@@ -55,7 +55,7 @@
     text-align: center;
 }
 
-.hero .profileButton:hover {
+.profileButton:hover {
     background: var(--accent-color);
     color: #fff;
 }
@@ -227,8 +227,8 @@
         width: 100%;
     }
 
-    .hero .ctaButton, 
-    .hero .profileButton {
+    .ctaButton, 
+    .profileButton {
         width: 100%;
     }
     
