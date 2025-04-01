@@ -5,51 +5,46 @@ export default function OurWayOfWork() {
     <section id="our-way-of-work" className={styles.ourWayOfWork} aria-labelledby="our-way-heading">
       <h2 id="our-way-heading">Come Lavoriamo</h2>
       <p>
-        Aiutiamo CEO di startup e PMI a ridurre l&apos;incertezza e trasformare il caos iniziale in un business scalabile e strutturato. 
-        Il nostro metodo è basato su dati concreti, iterazioni rapide e un approccio collaborativo per massimizzare crescita e efficienza.
+        Siamo l'intelligence dei CEO di startup e PMI: trasformiamo dati e informazioni complesse in decisioni strategiche chiare e misurabili.
+        Il nostro metodo si basa su una gestione strutturata del flusso informativo, compliance GDPR e sicurezza informatica.
       </p>
 
       <div className={styles.workProcess}>
         <div className={styles.processStep}>
-          <h3>🔍 Validazione del Problema</h3>
+          <h3>🔍 Analisi Strategica Iniziale</h3>
           <p>
-            Tutto inizia con una <strong>chiamata gratuita</strong> per comprendere a fondo le sfide del tuo business. 
-            Attraverso un&apos;analisi strutturata e un ascolto attento, identifichiamo punti critici e opportunità di crescita, 
-            proponendo soluzioni mirate, scalabili e basate su dati concreti.
+            Partiamo con una <strong>chiamata gratuita</strong> per identificare le esigenze specifiche e i dati rilevanti del tuo business.
+            Strutturiamo informazioni e KPI strategici per definire le soluzioni più efficaci.
           </p>
         </div>
 
         <div className={styles.processStep}>
-          <h3>📋 Proposta di Collaborazione</h3>
+          <h3>📋 Dashboard Personalizzate</h3>
           <p>
-            Dopo l&apos;analisi iniziale, sviluppiamo una <strong>strategia personalizzata</strong> con soluzioni concrete e misurabili. 
-            Ogni azione è strutturata su <strong>KPI chiari</strong>, garantendo crescita scalabile, efficienza operativa e risultati tangibili. 
-            Il nostro approccio Agile ci permette di adattarci rapidamente alle esigenze del business.
+            Progettiamo dashboard di <strong>Business Intelligence</strong> completamente personalizzate sulle tue esigenze.
+            Ogni dashboard è disegnata per rendere semplici decisioni complesse grazie a informazioni chiare, tempestive e pertinenti.
           </p>
         </div>
 
         <div className={styles.processStep}>
-          <h3>🚀 Esecuzione Agile</h3>
+          <h3>🚀 Progetto Personalizzato GDPR & Cybersecurity</h3>
           <p>
-            Implementiamo strategie con un approccio Agile: <strong>sprint mirati</strong>, stand-up giornalieri e retrospettive periodiche. 
-            Questo garantisce <strong>adattabilità</strong>, ottimizzazione costante e il raggiungimento dei KPI, trasformando ogni iterazione 
-            in un passo concreto verso scalabilità ed efficienza.
+            Realizziamo soluzioni ad hoc tenendo sempre presente la conformità GDPR e la cybersicurezza.
+            Ogni progetto è su misura, garantendo compliance normativa e sicurezza dei dati aziendali.
           </p>
         </div>
 
         <div className={styles.processStep}>
-          <h3>🔄 Testing & Feedback Loop</h3>
+          <h3>🔄 Monitoraggio e Ottimizzazione Continua</h3>
           <p>
-            Misuriamo costantemente i risultati con un <strong>approccio data-driven</strong>. 
-            Ogni azione viene testata, validata e ottimizzata per garantire che le strategie adottate portino 
-            alla crescita sostenibile del business. La nostra collaborazione è un ciclo continuo di miglioramento.
+            Gestiamo continuamente i flussi informativi e i KPI per adattare rapidamente la strategia aziendale.
+            Il nostro lavoro non si ferma mai: continuiamo a monitorare, adattare e migliorare per supportare la crescita costante del tuo business.
           </p>
         </div>
 
         <div className={styles.buttonGroup}>
           <a href="#contact" className={styles.ctaButton}>Prenota una Consulenza Gratuita</a>
         </div>
-        
       </div>
     </section>
   );

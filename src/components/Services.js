@@ -4,40 +4,37 @@ export default function Services() {
   return (
     <section className={styles.services} aria-labelledby="services-heading">
       <div className={styles.servicesContainer}>
-        <h2 id="services-heading">Strutturiamo la crescita del tuo business</h2>
+        <h2 id="services-heading">La tua Intelligence per una crescita strutturata</h2>
         <p className={styles.servicesDescription}>
-          Ottimizziamo processi, strategie di crescita e digitalizzazione per garantire scalabilità e risultati misurabili. 
-          Il nostro approccio è basato su dati, automazione e metodologie agili.
+          Gestiamo informazioni strategiche, processi e sicurezza per guidare decisioni aziendali basate su dati concreti, compliance GDPR e cybersicurezza avanzata.
         </p>
-        
+
         <div className={styles.serviceGrid}>
           <div className={styles.serviceCard}>
-            <h3>🚀 Prodotti Digitali Scalabili</h3>
+            <h3>📊 Dashboard di Business Intelligence</h3>
             <p>
-              Dall&apos;idea alla crescita: sviluppiamo piattaforme, web app e soluzioni digitali con un approccio iterativo, 
-              misurabile e orientato ai dati.
+              Creiamo dashboard su misura che trasformano dati complessi in informazioni chiare e immediatamente utilizzabili per decisioni strategiche.
             </p>
           </div>
 
           <div className={styles.serviceCard}>
-            <h3>📈 Marketing Data-Driven</h3>
+            <h3>🔒 GDPR & Sicurezza Informatica</h3>
             <p>
-              Progettiamo strategie di digital marketing e growth hacking basate su KPI, eliminando sprechi e massimizzando il ROI.
+              Realizziamo progetti ad hoc garantendo conformità GDPR e alti standard di cybersicurezza per proteggere il tuo business.
             </p>
           </div>
 
           <div className={styles.serviceCard}>
-            <h3>🤖 IT Consulting & Automazione</h3>
+            <h3>📁 Gestione Strategica del Flusso Informativo</h3>
             <p>
-              Digitalizziamo e automatizziamo processi aziendali per ridurre inefficienze, migliorare la produttività 
-              e scalare senza ostacoli.
+              Ottimizziamo il flusso delle informazioni aziendali per migliorare processi decisionali, riducendo complessità e rischi operativi.
             </p>
           </div>
 
           <div className={styles.serviceCard}>
-            <h3>💰 Business Development & Sales</h3>
+            <h3>🛠️ Progetti Personalizzati e Scalabili</h3>
             <p>
-              Strutturiamo funnel di vendita scalabili e prevedibili, trasformando lead in clienti e ottimizzando i processi di conversione.
+              Ogni soluzione è personalizzata sulle tue esigenze specifiche, progettata per adattarsi e crescere insieme al tuo business.
             </p>
           </div>
         </div>
