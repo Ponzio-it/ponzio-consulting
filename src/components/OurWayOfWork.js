@@ -5,7 +5,7 @@ export default function OurWayOfWork() {
     <section id="our-way-of-work" className={styles.ourWayOfWork} aria-labelledby="our-way-heading">
       <h2 id="our-way-heading">Come Lavoriamo</h2>
       <p>
-        Siamo l'intelligence dei CEO di startup e PMI: trasformiamo dati e informazioni complesse in decisioni strategiche chiare e misurabili.
+        Siamo l&apos;intelligence dei CEO di startup e PMI: trasformiamo dati e informazioni complesse in decisioni strategiche chiare e misurabili.
         Il nostro metodo si basa su una gestione strutturata del flusso informativo, compliance GDPR e sicurezza informatica.
       </p>
 
