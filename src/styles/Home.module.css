@@ -1,31 +1,92 @@
-/* styles/Home.module.css */
+/* ---------------------------------- */
+/* HERO SECTION                       */
+/* ---------------------------------- */
+
 .hero {
+    /* Full-screen hero area */
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url('/images/hero-bg.jpg'); /* Ensure this image is placed in /public/images */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.heroOverlay {
+    /* Semi-transparent overlay to improve text readability */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(10, 25, 47, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
     text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(135deg, rgba(10, 25, 47, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+.heroContent {
+    /* Constrains text width */
+    max-width: 800px;
+    color: var(--primary-text);
+    z-index: 2;
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+    /* Main headline style */
+    font-size: 3.5rem;
+    margin-bottom: 20px;
     color: var(--secondary-text);
 }
 
 .hero p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    /* Supporting paragraph */
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: var(--primary-text);
 }
 
-/* Button Container */
+.scrollDown {
+    /* Scroll cue (arrow icon) at bottom */
+    position: absolute;
+    bottom: 40px;
+    color: var(--secondary-text);
+    animation: bounce 2s infinite;
+    z-index: 2;
+    text-decoration: none;
+}
+
+@keyframes bounce {
+    /* Simple bounce animation for scroll cue */
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+/* ---------------------------------- */
+/* CALL TO ACTION BUTTONS             */
+/* ---------------------------------- */
+
 .buttonGroup {
+    /* CTA container: vertical stack with spacing */
     display: flex;
-    flex-direction: column; /* Stack buttons vertically */
+    flex-direction: column;
     align-items: center;
-    gap: 15px; /* Spacing between buttons */
+    gap: 15px;
 }
 
-/* CTA Button */
 .ctaButton {
+    /* Primary CTA styling */
     font-size: 1.1rem;
     background: var(--secondary-text);
     color: var(--primary-bg);
@@ -38,12 +99,13 @@
 }
 
 .ctaButton:hover {
+    /* CTA hover style */
     background: var(--accent-color);
     color: #fff;
 }
 
-/* Profile Button */
 .profileButton {
+    /* Optional secondary button (unused in hero for now) */
     font-size: 1.1rem;
     background: var(--secondary-text);
     color: var(--primary-bg);
@@ -60,7 +122,10 @@
     color: #fff;
 }
 
-/* Our Way of Work Section */
+/* ---------------------------------- */
+/* "OUR WAY OF WORK" SECTION          */
+/* ---------------------------------- */
+
 .ourWayOfWork {
     padding: 60px 20px;
     text-align: center;
@@ -79,16 +144,16 @@
     margin: 0 auto 30px auto;
 }
 
-/* Steps Container */
 .workProcess {
+    /* Wrapper for steps/cards */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
 
-/* Individual Process Step */
 .processStep {
+    /* Each individual step card */
     background: rgba(255,255,255,0.2);
     padding: 20px;
     border-radius: 8px;
@@ -108,12 +173,13 @@
     color: var(--primary-text);
 }
 
-/* Services Section */
+/* ---------------------------------- */
+/* SERVICES SECTION                   */
+/* ---------------------------------- */
+
 .servicesContainer {
     padding: 80px 20px;
     text-align: center;
-
-
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -131,21 +197,25 @@
     color: var(--primary-text);
 }
 
-/* Services Grid */
 .serviceGrid {
+    /* Responsive grid for service cards */
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
-/* Individual Service Card */
 .serviceCard {
+    /* Each service card */
     background: rgba(255,255,255,0.2);
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
     transition: transform 0.3s ease-in-out;
+}
+
+.serviceCard:hover {
+    transform: translateY(-5px);
 }
 
 .serviceCard h3 {
@@ -160,12 +230,10 @@
     color: var(--primary-text);
 }
 
-.serviceCard:hover {
-    transform: translateY(-5px);
-}
+/* ---------------------------------- */
+/* CONTACT FORM SECTION               */
+/* ---------------------------------- */
 
-
-/* Contact Form */
 .contact {
     text-align: center;
     padding: 50px;
@@ -181,15 +249,17 @@
 
 .contact input, 
 .contact textarea {
+    /* Input fields */
     width: 100%;
     padding: 12px;
-    border: 1px solid #ffff;
+    border: 1px solid #fff;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.1);
     color: #FFFFFF;
 }
 
 .contact button {
+    /* Submit button */
     width: 100%;
     padding: 12px;
     background: var(--secondary-text);
@@ -206,32 +276,39 @@
     color: #fff;
 }
 
-/* Status messages */
 .status {
+    /* Success/error messages */
     text-align: center;
     margin-top: 10px;
     font-weight: bold;
 }
-/* Responsive Design */
+
+/* ---------------------------------- */
+/* RESPONSIVE LAYOUT STYLES           */
+/* ---------------------------------- */
+
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .hero p {
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .scrollDown {
+        bottom: 20px;
     }
 
     .buttonGroup {
         width: 100%;
     }
 
-    .ctaButton, 
+    .ctaButton,
     .profileButton {
         width: 100%;
     }
-    
-    
+
     .ourWayOfWork p {
         font-size: 1rem;
     }
@@ -245,7 +322,7 @@
     }
 
     .serviceGrid {
-        grid-template-columns: 1fr; /* Switch to a single column */
+        grid-template-columns: 1fr; /* Stack cards vertically */
     }
 
     .services h2 {
