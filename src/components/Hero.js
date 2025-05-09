@@ -22,7 +22,7 @@ export default function Hero() {
           <h1 id="hero-heading">La tua Intelligence aziendale per scalare senza caos</h1>
           <div className={styles.buttonGroup}>
             <a href="#contact" className={styles.ctaButton}>
-              Richiedi una consulenza personalizzata
+              Richiedi Consulenza personalizzata
             </a>
           </div>
         </div>
