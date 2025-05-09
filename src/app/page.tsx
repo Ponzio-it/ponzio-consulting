@@ -7,6 +7,7 @@ import Services from '../components/Services';
 import Costumers from '../components/Customers';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
+import Team from '../components/Team';
 
 export default function Home() {
   return (
@@ -32,12 +33,13 @@ export default function Home() {
 
         <link rel="canonical" href="https://www.ponzioconsulting.com" />
       </Head>
-      <Navbar />
+      {/*<Navbar /> */}
       <main>
         <Hero />
         <OurWayOfWork />
         <Services />
         <Costumers />
+        <Team />
         <ContactForm />
       </main>
       <Footer />

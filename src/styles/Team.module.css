@@ -1,0 +1,112 @@
+/* team.module.css */
+.team {
+    text-align: center;
+    padding: 50px 20px;
+    background: var(--primary-bg);
+    color: var(--primary-text);
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-family: var(--font-heading);
+    color: var(--secondary-text);
+    margin-bottom: 30px;
+  }
+  
+  .teamList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .teamCard {
+    background: #112240; /* Dark navy with contrast */
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 320px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .teamCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(230, 57, 70, 0.4);
+  }
+  
+  .photoWrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 3px solid var(--accent-color);
+  }
+  
+  .photo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F8F8F8;
+    font-family: var(--font-heading);
+  }
+  
+  .role {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #A8B2D1;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+    color: #CCD6F6;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  .linkedinLink {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid var(--accent-color);
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .linkedinLink:hover {
+    background: var(--accent-color);
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .teamList {
+      grid-template-columns: 1fr;
+    }
+  
+    .teamCard {
+      max-width: 100%;
+    }
+  
+    .name {
+      font-size: 1.3rem;
+    }
+  
+    .description {
+      font-size: 0.9rem;
+    }
+  }
+  

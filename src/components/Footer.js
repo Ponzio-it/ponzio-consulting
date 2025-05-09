@@ -2,7 +2,7 @@
 export default function Footer() {
     return (
       <footer>
-        <p>&copy; {new Date().getFullYear()} Ponzio Consulting</p>
+        <p>&copy; {new Date().getFullYear()} Quantiora</p>
       </footer>
     );
   }

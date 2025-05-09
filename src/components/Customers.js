@@ -2,21 +2,66 @@
 
 import Image from "next/image";
 import styles from "../styles/Customers.module.css";
+import { Star, StarHalf } from "lucide-react";
 
 const customersData = [
   {
     name: "HSE CONSULTING S.R.L",
     logo: "/logos/hse.png",
     website: "https://www.hseconsulting.info",
-    customerName: "CHIARA BOGINO: CEO HSE CONSULTING S.R.L",
-    quote: "Ponzio Consulting mi ha permesso di ridurre il carico di lavoro automatizzando al meglio i processi IT.",
+    customerName: "CHIARA VINCIGUERRA: CEO HSE CONSULTING S.R.L",
+    rating: 5.0,
+  },
+  {
+    name: "PERINO PIERO S.R.L",
+    logo: "/logos/perino-piero.png",
+    website: "https://www.perinopierosrl.it",
+    customerName: "LUCA PERINO: CEO PERINO PIERO S.R.L",
+    rating: 4.8,
+  },
+  {
+    name: "GBS GROUP",
+    logo: "/logos/gbs.svg",
+    website: "https://www.gbs-group.it",
+    customerName: "MARCO SARACENO: CEO GBS GROUP",
+    rating: 4.4,
+  },
+  {
+    name: "IMPACT HUB S.R.L",
+    logo: "/logos/impact-hub.svg",
+    website: "https://milan.impacthub.net/",
+    customerName: "MARCO NANNINO: CEO IMPACT HUB SRL",
+    rating: 4.5,
   },
 ];
+
+const renderStars = (rating) => {
+  const fullStars = Math.floor(rating);
+  const hasHalfStar = rating % 1 >= 0.5;
+  const totalStars = 5;
+
+  const stars = [];
+
+  for (let i = 0; i < fullStars; i++) {
+    stars.push(<Star key={`full-${i}`} size={18} fill="#FFD700" color="#FFD700" />);
+  }
+
+  if (hasHalfStar) {
+    stars.push(<StarHalf key="half" size={18} color="#FFD700" />);
+  }
+
+  const remaining = totalStars - fullStars - (hasHalfStar ? 1 : 0);
+  for (let i = 0; i < remaining; i++) {
+    stars.push(<Star key={`empty-${i}`} size={18} color="#FFD700" fill="none" />);
+  }
+
+  return <div className={styles.stars}>{stars}</div>;
+};
 
 export default function Customers() {
   return (
     <section className={styles.customers} id="customers">
-      <h2 className={styles.title}>I nostri Clienti</h2>
+      <h2 className={styles.title}>I nostri Partner</h2>
       <div className={styles.customerList}>
         {customersData.map((customer, index) => (
           <div key={index} className={styles.customerCard}>
@@ -30,8 +75,9 @@ export default function Customers() {
               />
             </a>
             <h3 className={styles.name}>{customer.name}</h3>
-            <p className={styles.customerName}>{customer.customerName}</p>
-            <p className={styles.quote}>{`"${customer.quote}"`}</p>
+            {/*<p className={styles.customerName}>{customer.customerName}</p>*/}
+            {renderStars(customer.rating)}
+            <p className={styles.ratingText}>{`${customer.rating} su 5`}</p>
         </div>
         ))}
       </div>

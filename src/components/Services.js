@@ -18,9 +18,9 @@ export default function Services() {
           </div>
 
           <div className={styles.serviceCard}>
-            <h3>🔒 GDPR & Sicurezza Informatica</h3>
+            <h3>🔒 Business Development e Marketing</h3>
             <p>
-              Realizziamo progetti ad hoc garantendo conformità GDPR e alti standard di cybersicurezza per proteggere il tuo business.
+              Costruiamo processi replicabili basati su dati e metriche per ridurre l'incertezza favorendo la predicibilità e le previsioni.
             </p>
           </div>
 
@@ -42,3 +42,4 @@ export default function Services() {
     </section>
   );
 }
+

@@ -47,7 +47,7 @@ export default function OurWayOfWork() {
         </div>
 
         <div className={styles.buttonGroup}>
-          <a href="#contact" className={styles.ctaButton}>Prenota una Consulenza Gratuita</a>
+          <a href="#contact" className={styles.ctaButton}>Richiedi una consulenza personalizzata</a>
         </div>
       </div>
     </section>

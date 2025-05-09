@@ -63,6 +63,7 @@
     text-decoration: none;
 }
 
+
 @keyframes bounce {
     /* Simple bounce animation for scroll cue */
     0%, 100% {
@@ -344,4 +345,5 @@
     .contact {
         padding: 30px;
     }
+
 }
