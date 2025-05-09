@@ -1,6 +1,6 @@
 // pages/index.js
 import Head from 'next/head';
-import Navbar from '../components/Navbar';
+//import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import OurWayOfWork from '../components/OurWayOfWork';
 import Services from '../components/Services';

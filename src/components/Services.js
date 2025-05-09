@@ -20,7 +20,7 @@ export default function Services() {
           <div className={styles.serviceCard}>
             <h3>🔒 Business Development e Marketing</h3>
             <p>
-              Costruiamo processi replicabili basati su dati e metriche per ridurre l'incertezza favorendo la predicibilità e le previsioni.
+              Costruiamo processi replicabili basati su dati e metriche per ridurre l&apos;incertezza favorendo la predicibilità e le previsioni.
             </p>
           </div>
 
