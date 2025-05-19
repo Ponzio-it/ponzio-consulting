@@ -20,11 +20,11 @@ export default function Hero() {
         </div>
         <div className={styles.heroContent}>
           <h1 id="hero-heading">La tua Intelligence aziendale per scalare senza caos</h1>
-          <div className={styles.buttonGroup}>
+          {/*<div className={styles.buttonGroup}>
             <a href="#contact" className={styles.ctaButton}>
               Richiedi Consulenza personalizzata
             </a>
-          </div>
+          </div>*/}
         </div>
         <a href="#our-way" className={styles.scrollDown} aria-label="Scorri giù">
           <ArrowDown size={32} />
