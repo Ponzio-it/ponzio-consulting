@@ -4,37 +4,58 @@ export default function Services() {
   return (
     <section className={styles.services} aria-labelledby="services-heading">
       <div className={styles.servicesContainer}>
-        <h2 id="services-heading">La tua Intelligence per una crescita strutturata</h2>
+        <h2 id="services-heading">I Nostri Servizi</h2>
         <p className={styles.servicesDescription}>
-          Gestiamo informazioni strategiche, processi e sicurezza per guidare decisioni aziendali basate su dati concreti, compliance GDPR e cybersicurezza avanzata.
+          Supportiamo PMI e startup nell&apos;adottare un approccio data-driven, strutturando dati, processi e compliance 
+          con servizi modulari, scalabili e orientati al risultato.
         </p>
 
         <div className={styles.serviceGrid}>
           <div className={styles.serviceCard}>
-            <h3>📊 Dashboard di Business Intelligence</h3>
+            <h3>📊 Data Assessment</h3>
             <p>
-              Creiamo dashboard su misura che trasformano dati complessi in informazioni chiare e immediatamente utilizzabili per decisioni strategiche.
+              Mappiamo flussi e strumenti per una governance dei dati efficace.
             </p>
           </div>
 
           <div className={styles.serviceCard}>
-            <h3>🔒 Business Development e Marketing</h3>
+            <h3>🔐 Privacy &amp; GDPR Assessment</h3>
             <p>
-              Costruiamo processi replicabili basati su dati e metriche per ridurre l&apos;incertezza favorendo la predicibilità e le previsioni.
+              Verifica e adeguamento rapido alla normativa.
             </p>
           </div>
 
           <div className={styles.serviceCard}>
-            <h3>📁 Gestione Strategica del Flusso Informativo</h3>
+            <h3>🛡️ Cybersecurity Assessment</h3>
             <p>
-              Ottimizziamo il flusso delle informazioni aziendali per migliorare processi decisionali, riducendo complessità e rischi operativi.
+              Analisi e azioni prioritarie secondo ISO 27001.
             </p>
           </div>
 
           <div className={styles.serviceCard}>
-            <h3>🛠️ Progetti Personalizzati e Scalabili</h3>
+            <h3>🤖 AI &amp; Automation Assessment</h3>
             <p>
-              Ogni soluzione è personalizzata sulle tue esigenze specifiche, progettata per adattarsi e crescere insieme al tuo business.
+              Valutazione e adozione responsabile, in linea con l'AI Act.
+            </p>
+          </div>
+            <div className={styles.serviceCard}>
+            <h3>📈 KPI &amp; Data Strategy</h3>
+            <p>
+              Framework decisionali basati su KPI chiari.
+            </p>
+          </div>
+
+          <div className={styles.serviceCard}>
+            <h3>📁 Pacchetto Audit &amp; Roadmap</h3>
+            <p>
+              Assessment normativo + piano operativo (GDPR, ISO, AI Act).
+            </p>
+          </div>
+
+          <div className={styles.serviceCard}>
+            <h3>🧭 Fractional CDO</h3>
+            <p>
+              Guida strategica sui dati, senza costi fissi.
             </p>
           </div>
         </div>
