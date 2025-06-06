@@ -35,7 +35,7 @@ export default function Services() {
           <div className={styles.serviceCard}>
             <h3>🤖 AI &amp; Automation Assessment</h3>
             <p>
-              Valutazione e adozione responsabile, in linea con l'AI Act.
+              Valutazione e adozione responsabile, in linea con l&apos;AI Act.
             </p>
           </div>
             <div className={styles.serviceCard}>
