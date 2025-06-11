@@ -13,26 +13,77 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ponzio Consulting | Crescita Agile per Startup e PMI</title>
-        <meta name="description" content="Ponzio Consulting aiuta CEO di startup e PMI a crescere senza caos. Dashboard KPI, ottimizzazione dei processi decisionali, e strategie scalabili." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        
-        {/* Open Graph (Facebook, LinkedIn) */}
-        <meta property="og:title" content="Ponzio Consulting | Crescita Agile per Startup e PMI" />
-        <meta property="og:description" content="Business Intelligence, flussi informativi strutturati e decisioni strategiche data-driven per far crescere la tua azienda in modo sostenibile." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.ponzioconsulting.com" />
-        <meta property="og:image" content="/og-image.jpg" />
+          {/* Title ottimizzato (50–60 caratteri) */}
+          <title>Fractional CDO per PMI e Startup | Quantiora</title>
 
-        {/* Twitter Meta */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Ponzio Consulting | Crescita Agile per Startup e PMI" />
-        <meta name="twitter:description" content="Strategic operations partner per CEO. Dashboard KPI, crescita data-driven, flussi decisionali ottimizzati." />
-        <meta name="twitter:image" content="/og-image.jpg" />
+          {/* Meta description ottimizzata (120–155 caratteri) */}
+          <meta
+            name="description"
+            content="Fractional CDO per startup e PMI: governance dati, compliance GDPR, sicurezza ISO27001, AI Act, KPI dashboard e strategie data-driven per scalare con metodo."
+          />
 
-        <link rel="canonical" href="https://www.ponzioconsulting.com" />
+          {/* Viewport e robots avanzati */}
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta
+            name="robots"
+            content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+          />
+
+          {/* Canonical */}
+          <link rel="canonical" href="https://www.quantiora.it" />
+
+          {/* Open Graph */}
+          <meta property="og:site_name" content="Quantiora" />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="it_IT" />
+          <meta property="og:url" content="https://www.quantiora.it/" />
+          <meta
+            property="og:title"
+            content="Fractional CDO per PMI e Startup | Quantiora"
+          />
+          <meta
+            property="og:description"
+            content="Data governance, GDPR, ISO27001 e AI Act: soluzioni data-driven per PMI e startup che vogliono crescere con metodo."
+          />
+          <meta
+            property="og:image"
+            content="https://www.quantiora.it/og-image.jpg"
+          />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Fractional CDO per PMI e Startup | Quantiora" />
+          <meta
+            name="twitter:description"
+            content="Soluzioni di fractional CDO: governance dati, compliance e strategie data-driven per scalare con metodo."
+          />
+          <meta
+            name="twitter:image"
+            content="https://www.quantiora.it/og-image.jpg"
+          />
+          {/* Se hai un handle Twitter aziendale, attivalo qui */}
+          {/* <meta name="twitter:site" content="@PonzioConsulting" /> */}
+
+          {/* Tema colore per browser mobili */}
+          <meta name="theme-color" content="#ffffff" />
+
+          {/* JSON-LD per Structured Data (Organization) */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `{
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Quantiora",
+                "url": "https://www.quantiora.com",
+                "logo": "https://www.quantiora.com/logo.png",
+                "sameAs": [
+                  "https://www.linkedin.com/company/quantiora",               ]
+              }`,
+            }}
+          />
       </Head>
+
       {/*<Navbar /> */}
       <main>
         <Hero />
