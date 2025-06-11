@@ -5,7 +5,7 @@ import styles from '../styles/Team.module.css';
 const teamMembers = [
   {
     name: 'Ettore Ponzio',
-    title: 'CEO & Founder',
+    title: 'CDO & Founder',
     image: '/team/foto-ponzio.jpeg',
     linkedin: 'https://www.linkedin.com/in/ettore-ponzio/',
     description: 'Conduce la visione strategica e guida le operazioni quotidiane di Quantiora.',
