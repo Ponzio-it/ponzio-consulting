@@ -19,7 +19,7 @@ export default function Home() {
           {/* Meta description ottimizzata (150 caratteri max) */}
           <meta
             name="description"
-            content="Fractional CDO per PMI e startup: data governance, compliance GDPR, sicurezza ISO27001, AI Act e strategie data-driven per crescere con metodo."
+          content="Fractional CDO per PMI e startup: data governance, compliance GDPR, sicurezza ISO27001, AI Act e strategie data-driven per crescere con metodo."
           />
 
           {/* Verifica Google Search Console */}
@@ -39,7 +39,7 @@ export default function Home() {
           <link rel="sitemap" type="application/xml" title="Sitemap" href="https://www.quantiora.it/sitemap.xml" />
 
           {/* Hreflang (se prevedi versioni multilingua) */}
-          <link rel="alternate" href="https://www.quantiora.it/" hreflang="it" />
+          <link rel="alternate" href="https://www.quantiora.it/" hrefLang="it" />
           {/* <link rel="alternate" href="https://www.quantiora.com/" hreflang="en" /> */}
 
           {/* Open Graph */}
