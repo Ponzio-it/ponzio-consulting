@@ -28,7 +28,9 @@ export default function Home() {
             name="robots"
             content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
           />
-
+          {/*Google search console*/}
+          <meta name="google-site-verification" content="NvYjV0JpXwN0zp6bG8nBc8lWY-i2ZJDQI4qSLcKTuZ0" />
+          
           {/* Canonical */}
           <link rel="canonical" href="https://www.quantiora.it" />
 
