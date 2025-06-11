@@ -24,14 +24,14 @@ const customersData = [
     logo: "/logos/gbs.svg",
     website: "https://www.gbs-group.it",
     customerName: "MARCO SARACENO: CEO GBS GROUP",
-    rating: 4.4,
+    rating: 4.7,
   },
   {
     name: "IMPACT HUB S.R.L",
     logo: "/logos/impact-hub.svg",
     website: "https://milan.impacthub.net/",
     customerName: "MARCO NANNINO: CEO IMPACT HUB SRL",
-    rating: 4.5,
+    rating: 4.9,
   },
 ];
 
