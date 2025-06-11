@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ponzio Consulting",
+  title: "Quantiora",
   description: "Aiutiamo le aziende a crescere con strategie di sviluppo prodotto, consulenza IT e growth hacking.",
   icons: {
     icon: "/favicon.ico",
