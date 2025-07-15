@@ -4,61 +4,58 @@ export default function Services() {
   return (
     <section className={styles.services} aria-labelledby="services-heading">
       <div className={styles.servicesContainer}>
-        <h2 id="services-heading">I Nostri Servizi</h2>
+        <h2 id="services-heading">IL Nostro Servizio</h2>
         <p className={styles.servicesDescription}>
-          Supportiamo PMI e startup nell&apos;adottare un approccio data-driven, strutturando dati, processi e compliance 
-          con servizi modulari, scalabili e orientati al risultato.
+          Supportiamo PMI e startup a diventare data-driven, strutturando dati, processi e conformità attraverso servizi modulari, scalabili e orientati ai risultati.
         </p>
 
         <div className={styles.serviceGrid}>
           <div className={styles.serviceCard}>
-            <h3>📊 Data Assessment</h3>
+            <h3>📊 AI assesment e gap analysis</h3>
             <p>
-              Mappiamo flussi e strumenti per una governance dei dati efficace.
+              Valuta se la tua azienda è pronta ad adottare l&apos;Intelligenza Artificiale in modo sicuro, strategico e conforme all&apos;AI Act.
+              Esploriamo i casi d&apos;uso, la qualità dei dati, i rischi e il livello di consapevolezza interna.
+              Ti aiutiamo a capire dove sei e cosa serve per integrare l&apos;AI in modo efficace, responsabile e a prova di normativa.
             </p>
           </div>
 
           <div className={styles.serviceCard}>
             <h3>🔐 Privacy &amp; GDPR Assessment</h3>
             <p>
-              Verifica e adeguamento rapido alla normativa.
+              Scopri quanto la tua azienda è davvero conforme al GDPR.
+              Analizziamo come vengono gestiti i dati personali, i ruoli, le policy, i fornitori e la risposta agli incidenti.
+              Ti consegniamo una fotografia chiara della situazione, i punti critici da correggere e una roadmap pratica per migliorare sicurezza, fiducia e compliance.
             </p>
           </div>
-
-          <div className={styles.serviceCard}>
-            <h3>🛡️ Cybersecurity Assessment</h3>
-            <p>
-              Analisi e azioni prioritarie secondo ISO 27001.
-            </p>
-          </div>
-
-          <div className={styles.serviceCard}>
-            <h3>🤖 AI &amp; Automation Assessment</h3>
-            <p>
-              Valutazione e adozione responsabile, in linea con l&apos;AI Act.
-            </p>
-          </div>
-            <div className={styles.serviceCard}>
-            <h3>📈 KPI &amp; Data Strategy</h3>
-            <p>
-              Framework decisionali basati su KPI chiari.
-            </p>
-          </div>
-
-          <div className={styles.serviceCard}>
-            <h3>📁 Pacchetto Audit &amp; Roadmap</h3>
-            <p>
-              Assessment normativo + piano operativo (GDPR, ISO, AI Act).
-            </p>
-          </div>
-
-          <div className={styles.serviceCard}>
-            <h3>🧭 Fractional CDO</h3>
-            <p>
-              Guida strategica sui dati, senza costi fissi.
-            </p>
-          </div>
+          
         </div>
+        <div className={styles.servicesContainer}></div>
+          <h2 id="services-heading">Unico Prezzo, Tutto incluso</h2>
+          <div className={styles.serviceGrid}></div>
+            <div className={styles.serviceCard}>
+              <h3>🧭 Una fotografia chiara della situazione attuale</h3>
+            </div>
+            <div className={styles.serviceCard}>
+              <h3>🚨 L&apos;elenco dei punti critici da sistemare</h3>
+          </div>
+          <div className={styles.serviceCard}>
+              <h3>✅ Una guida pratica per mettersi in regola e proteggere il business</h3>
+          </div>
+          <div className={styles.serviceCard}>
+              <h3>🚀 I rischi da evitare e le opportunità da cogliere</h3>
+          </div>
+          <div className={styles.serviceCard}>
+              <h3>🛡️ Una base solida per investire in AI in modo strutturato e responsabile</h3>
+          </div>
+          <div className={styles.offerBanner}>
+             
+              <img 
+                src="/images/prezzo.png" 
+                alt="Offerta: AI Assessment più Privacy assesment 1995€" 
+                className={styles.offerImage}
+              />
+          </div>
+          
       </div>
     </section>
   );
