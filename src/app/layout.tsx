@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quantiora",
-  description: "Aiutiamo le aziende a crescere con strategie di sviluppo prodotto, consulenza IT e growth hacking.",
+  title: "Quantiora - Ethical Data & AI Consulting",
+  description: "Supportiamo PMI e startup a diventare data-ready e compliant. Assessment modulari su privacy, sicurezza, AI Act e governance dei dati.",
   icons: {
     icon: "/favicon.ico",
   },
