@@ -19,32 +19,25 @@ export default function Services() {
             </p>
           </div>
 
-          <div className={styles.serviceCard}>
-            <h3>🔐 Privacy &amp; GDPR Assessment</h3>
-            <p>
-              Scopri quanto la tua azienda è davvero conforme al GDPR.
-              Analizziamo come vengono gestiti i dati personali, i ruoli, le policy, i fornitori e la risposta agli incidenti.
-              Ti consegniamo una fotografia chiara della situazione, i punti critici da correggere e una roadmap pratica per migliorare sicurezza, fiducia e compliance.
-            </p>
-          </div>
+          
           
         </div>
         <div className={styles.servicesContainer}></div>
           <h2 id="services-heading">Unico Prezzo, Tutto incluso</h2>
-          <div className={styles.serviceGrid}></div>
-            <div className={styles.serviceCard}>
+          <div className={styles.offerGrid}></div>
+            <div className={styles.offerCard}>
               <h3>🧭 Una fotografia chiara della situazione attuale</h3>
             </div>
-            <div className={styles.serviceCard}>
+            <div className={styles.offerCard}>
               <h3>🚨 L&apos;elenco dei punti critici da sistemare</h3>
           </div>
-          <div className={styles.serviceCard}>
+          <div className={styles.offerCard}>
               <h3>✅ Una guida pratica per mettersi in regola e proteggere il business</h3>
           </div>
-          <div className={styles.serviceCard}>
+          <div className={styles.offerCard}>
               <h3>🚀 I rischi da evitare e le opportunità da cogliere</h3>
           </div>
-          <div className={styles.serviceCard}>
+          <div className={styles.offerCard}>
               <h3>🛡️ Una base solida per investire in AI in modo strutturato e responsabile</h3>
           </div>
           <div className={styles.offerBanner}>
