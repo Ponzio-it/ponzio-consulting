@@ -19,7 +19,7 @@ export default function Hero() {
           />
         </div>
         <div className={styles.heroContent}>
-          <h1 id="hero-heading">Sei pronto per l'AI in azienda?</h1>
+          <h1 id="hero-heading">Sei pronto per l&apos;AI in azienda?</h1>
           {/*<div className={styles.buttonGroup}>
             <a href="#contact" className={styles.ctaButton}>
               Richiedi Consulenza personalizzata
