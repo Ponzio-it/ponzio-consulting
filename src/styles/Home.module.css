@@ -213,7 +213,8 @@
 .serviceGrid {
     /* Responsive grid for service cards */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
@@ -223,7 +224,7 @@
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    text-align: justify;
     transition: transform 0.3s ease-in-out;
     height: 100%;
     width: 100%;
@@ -237,7 +238,40 @@
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: var(--accent-color);
+    text-align: center;
 }
+
+.offerGrid {
+    /* Responsive grid for service cards */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.offerCard {
+    /* Each service card */
+    background: rgba(255,255,255,0.2);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+.offerCard:hover {
+    transform: translateY(-5px);
+}
+
+.offerCard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--accent-color);
+
+}
+
 
 .serviceCard p {
     font-size: 1.1rem;
