@@ -11,7 +11,7 @@ export default function Services() {
 
         <div className={styles.serviceGrid}>
           <div className={styles.serviceCard}>
-            <h3>📊 AI assesment e gap analysis</h3>
+            <h3>📊 Valutazione prontezza AI e analisi dei gap</h3>
             <p>
               Valuta se la tua azienda è pronta ad adottare l&apos;Intelligenza Artificiale in modo sicuro, strategico e conforme all&apos;AI Act.
               Esploriamo i casi d&apos;uso, la qualità dei dati, i rischi e il livello di consapevolezza interna.
