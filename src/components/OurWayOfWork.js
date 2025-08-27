@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 export default function OurWayOfWork() {
   return (
     <section id="our-way-of-work" className={styles.ourWayOfWork} aria-labelledby="our-way-heading">
-      <h2 id="our-way-heading">Come Lavoriamo</h2>
+      <h2 id="our-way-heading">Come Eseguiamo l'analisi</h2>
       <p>
         Uniamo visione strategica, governance dei dati e agilità operativa. Ogni intervento è guidato da dati, normato da policy, 
         orientato alla crescita.
@@ -11,35 +11,43 @@ export default function OurWayOfWork() {
 
       <div className={styles.workProcess}>
         <div className={styles.processStep}>
-          <h3>🔍 Analisi del contesto</h3>
+          <h3>1️⃣ Consulenza introduttiva gratuita</h3>
           <p>
             <strong>Call gratuita</strong> per comprendere sfide e priorità. Identifichiamo criticità e opportunità.
           </p>
         </div>
 
         <div className={styles.processStep}>
-          <h3>📋 Strategia &amp; Governance dei dati</h3>
+          <h3>2️⃣ Workshop di analisi in presenza</h3>
           <p>
-            <strong>Roadmap su misura</strong> con KPI, governance e adeguamento normativo.
+            <strong>Due giornate</strong> dedicate alla raccolta dati, interviste e assessment approfondito.​
           </p>
         </div>
 
         <div className={styles.processStep}>
-          <h3>🚀 Esecuzione Agile</h3>
+          <h3>3️⃣ Elaborazione e redazione report</h3>
           <p>
-            Sprint brevi, <strong>miglioramento continuo</strong> e adattamento costante.
+           <strong>Sintesi strutturata</strong> delle evidenze e delle aree di miglioramento.
           </p>
         </div>
 
         <div className={styles.processStep}>
-          <h3>🔄 Ottimizzazione continua</h3>
+          <h3>4️⃣ Presentazione dei risultati</h3>
           <p>
-            Monitoraggio, feedback e <strong>ottimizzazione data-driven.</strong>
+            Condivisione dei principali insight e delle <strong>proposte di intervento</strong>.
           </p>
         </div>
+
+        <div className={styles.processStep}>
+          <h3>5️⃣ Sessione di feedback e allineamento​</h3>
+          <p>
+             Discussione aperta per validare le conclusioni e definire i prossimi passi.​
+          </p>
+        </div>
+
 
         <div className={styles.buttonGroup}>
-          <a href="#contact" className={styles.ctaButton}>Richiedi consulenza personalizzata</a>
+          <a href="#contact" className={styles.ctaButton}>Richiedi Demo Personalizzata</a>
         </div>
       </div>
     </section>

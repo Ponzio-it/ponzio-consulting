@@ -8,6 +8,7 @@ import Costumers from '../components/Customers';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 import Team from '../components/Team';
+import Price from '../components/Price';
 
 export default function Home() {
   return (
@@ -116,8 +117,9 @@ export default function Home() {
       {/*<Navbar /> */}
       <main>
         <Hero />
-        <OurWayOfWork />
         <Services />
+        <OurWayOfWork />
+        <Price />
         <Costumers />
         <Team />
         <ContactForm />
