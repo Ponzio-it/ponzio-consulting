@@ -1,9 +1,8 @@
 import styles from '../styles/Home.module.css';
-
 export default function OurWayOfWork() {
   return (
     <section id="our-way-of-work" className={styles.ourWayOfWork} aria-labelledby="our-way-heading">
-      <h2 id="our-way-heading">Come Eseguiamo l'analisi</h2>
+      <h2 id="our-way-heading">Come Eseguiamo l&apos;analisi</h2>
       <p>
         Uniamo visione strategica, governance dei dati e agilità operativa. Ogni intervento è guidato da dati, normato da policy, 
         orientato alla crescita.
