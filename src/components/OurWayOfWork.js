@@ -43,11 +43,6 @@ export default function OurWayOfWork() {
              Discussione aperta per validare le conclusioni e definire i prossimi passi.​
           </p>
         </div>
-
-
-        <div className={styles.buttonGroup}>
-          <a href="#contact" className={styles.ctaButton}>Richiedi Demo Personalizzata</a>
-        </div>
       </div>
     </section>
   );

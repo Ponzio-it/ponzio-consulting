@@ -19,7 +19,7 @@ export default function Price() {
                 <h3>🚀 I rischi da evitare e le opportunità da cogliere</h3>
             </div>
             <div className={styles.offerCard}>
-                <h3>🛡️ Una base solida per investire in AI in modo strutturato e responsabile</h3>
+                <h3>🛡️ Roadmap di adeguamento a 6, 12 e 24 mesi</h3>
             </div>
             <div className={styles.offerBanner}>
                 
@@ -28,6 +28,9 @@ export default function Price() {
                     alt="Offerta: AI Assessment più Privacy assesment 1995€" 
                     className={styles.offerImage}
                 />
+            </div>
+            <div className={styles.buttonGroup}>
+                <a href="#contact" className={styles.ctaButton}>Richiedi Demo Personalizzata</a>
             </div>
         </div>
     </section>
