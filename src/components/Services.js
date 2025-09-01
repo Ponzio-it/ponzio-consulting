@@ -6,9 +6,8 @@ export default function Services() {
       <div className={styles.servicesContainer}>
         <h2 id="services-heading">IL Nostro Servizio</h2>
         <p className={styles.servicesDescription}>
-          Supportiamo PMI e startup a diventare data-driven, strutturando dati, 
-          processi e conformità attraverso servizi modulari, scalabili
-          e orientati ai risultati.
+          Ti aiutiamo a mettere ordine nei processi, rispettare le normative (GDPR, ISO 27001, AI Act) 
+          e costruire una roadmap di digitalizzazione sicura e sostenibile.
         </p>
 
         <div className={styles.serviceGrid}>

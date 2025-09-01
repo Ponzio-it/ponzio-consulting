@@ -19,7 +19,7 @@ export default function Hero() {
           />
         </div>
         <div className={styles.heroContent}>
-          <h1 id="hero-heading">La tua azienda è pronta per usare l&apos;AI?</h1>
+          <h1 id="hero-heading">Dal caos alla crescita digitale: metodo, compliance e prontezza AI per PMI.</h1>
           {/*<div className={styles.buttonGroup}>
             <a href="#contact" className={styles.ctaButton}>
               Richiedi Consulenza personalizzata

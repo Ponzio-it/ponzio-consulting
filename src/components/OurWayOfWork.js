@@ -4,8 +4,8 @@ export default function OurWayOfWork() {
     <section id="our-way-of-work" className={styles.ourWayOfWork} aria-labelledby="our-way-heading">
       <h2 id="our-way-heading">Come Eseguiamo l&apos;analisi</h2>
       <p>
-        Uniamo visione strategica, governance dei dati e agilità operativa. Ogni intervento è guidato da dati, normato da policy, 
-        orientato alla crescita.
+        Analizziamo i tuoi processi con metodo, valutiamo i rischi di compliance
+        e definiamo una roadmap operativa per accompagnare la digitalizzazione in sicurezza.
       </p>
 
       <div className={styles.workProcess}>
